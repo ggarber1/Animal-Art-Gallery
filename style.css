@@ -1,0 +1,50 @@
+body {
+	margin-left: 0px; /*so header can go all the way to the left. browsers sometimes have an automatic margin*/
+	margin-right: 10px;
+}
+
+
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid red;
+	width: 350px;
+	text-align: center;
+	border-right: 2px solid red;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px
+
+}
+
+h2 {
+	margin-left: 10px;
+	margin-top:15px;
+	font-size: 25px; 
+	font-family: fantasy;
+}
+span {
+	font-size: 1em;
+}
+.boxmodel{
+	display: flex;
+	justify-content: flex-start;
+	}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
